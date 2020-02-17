@@ -269,7 +269,7 @@ console.log(getOlderCars(inventory, 2012))
 
 
 /**
- * ### Challenge `getGermanCars`
+ * ### Challenge `getGermanCars`  <<<< I know this is correct!! --> https://repl.it/@AndreColon/test
  * 
  * @instructions
  * We need a utility to find German cars!
@@ -290,25 +290,25 @@ function getGermanCars(inventory) {
     }
     return zeGermans
 }
-console.log(getGermanCars(inventory))
-    /**
-     * ### Challenge refactor to arrow functions
-     * 
-     * @instructions
-     * Create arrow function versions of the following commented-out functions:
-     * 
-     * const sum = (a, b) =>{
-     *   return a + b
-     * }
-     * 
-     * const addFive = (num) => {
-     *    return num + 5
-     * }
-     *
-     * const argTimesTwo = (num) {
-     *   return num * 2
-     * }
-     */
+
+/**
+ * ### Challenge refactor to arrow functions
+ * 
+ * @instructions
+ * Create arrow function versions of the following commented-out functions:
+ * 
+ * const sum = (a, b) =>{
+ *   return a + b
+ * }
+ * 
+ * const addFive = (num) => {
+ *    return num + 5
+ * }
+ *
+ * const argTimesTwo = (num) {
+ *   return num * 2
+ * }
+ */
 
 const sum = (a, b) => {
     return a + b
